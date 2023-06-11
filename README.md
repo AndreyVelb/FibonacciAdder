@@ -1,0 +1,2 @@
+# FibonacciAdder
+This project consists of two microservices. The first microservice outputs a sequence of the first 50 fibonacci numbers (every 1 millisecond by number). The second microservice refers to the first one, sets the initial and final values of the subsequence that it needs as query parameters and calculates its sum. Also, the project organizes caching of results for 5 seconds but no more than 20 requests
